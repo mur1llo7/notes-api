@@ -2,6 +2,8 @@
 
 A REST API for managin notes. Built with Node.js and Express, using in-memory storage.
 
+**Live API:** https://notes-api-production-66c9.up.railway.app
+
 ## Tech Stack
 
 - Node.js + Express

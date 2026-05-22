@@ -12,6 +12,10 @@ app.get('/health', (req, res) => {
     res.status(200).json({ status: 'ok' });
 });
 
+// Mount the Routes 
+const notesRouter = require('./routes/notes')
+app.use('/notes', notesRouter)
+
 // Global error handler - 4 parameters, Express identifies this as error middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);

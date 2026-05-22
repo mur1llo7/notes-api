@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Health check route - confirms the server is running
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'Ok' });
+    res.status(200).json({ status: 'ok' });
 });
 
 // Global error handler - 4 parameters, Express identifies this as error middleware

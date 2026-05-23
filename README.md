@@ -1,6 +1,6 @@
 # Notes API
 
-A REST API for managin notes. Built with Node.js and Express, using in-memory storage.
+A REST API for managing notes. Built with Node.js and Express, using in-memory storage.
 
 **Live API:** https://notes-api-production-66c9.up.railway.app
 
@@ -105,4 +105,4 @@ Deletes a note.
 
 Deployed to Railway. The `start` script (`node src/app.js`) is used in production.
 
-> **Note:** This version uses in-memory storage — data resets on every server restart. A database integration is the planned next step.
+> **Note:** This version uses in-memory storage -- data resets on every server restart. A database integration is the planned next step.

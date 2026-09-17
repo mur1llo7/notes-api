@@ -1,8 +1,9 @@
+"Free tier — first request may take ~45s to wake the server"
 # Notes API
 
 A REST API for managing notes. Built with Node.js and Express, using in-memory storage.
 
-**Live API:** https://notes-api-production-66c9.up.railway.app
+**Live API:** https://notes-api-vfz0.onrender.com
 
 ## Tech Stack
 
